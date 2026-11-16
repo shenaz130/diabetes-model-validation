@@ -14,11 +14,27 @@ The objective is to classify hospital encounters into three categories:
 
 The project focuses on model comparison, feature selection, class imbalance, and reliable model validation.
 
-## Dataset
+## Dataset Source
 
-The analysis uses a diabetes hospital encounter dataset containing 101,766 records.
+**Dataset:** Diabetes 130-US Hospitals for Years 1999–2008
 
-The project applies patient-grouped splitting to prevent encounters belonging to the same patient from appearing in both training and test sets.
+**Source:** UCI Machine Learning Repository
+
+**Official dataset:**
+https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
+
+The dataset contains 101,766 hospital encounters
+involving patients with diabetes.
+
+### Required Files
+- `diabetic_data.csv`
+- `IDS_mapping.csv`
+
+Download the original dataset from UCI before
+running the notebooks.
+
+The CSV files are not included in this
+GitHub repository.
 
 ## Methodology
 
