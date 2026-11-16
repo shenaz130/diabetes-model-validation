@@ -91,9 +91,25 @@ The model is an academic experiment and is not intended for clinical decision-ma
 
 Python, Google Colab, Pandas, NumPy, Scikit-learn, LightGBM, Imbalanced-learn, SciPy, and Matplotlib.
 
-## Project Notebook
+## Project Notebooks
 
-[View the Model Validation Notebook](Diabetes_ModelValidation.ipynb)
+This project is organized into two stages:
+
+### 1. Exploratory Data Analysis (EDA)
+[View EDA Notebook](notebooks/Diabetes_Readmission_Data_EDA.ipynb)
+
+This notebook explores the diabetes hospital
+readmission dataset, including data quality
+assessment, preprocessing, outlier detection,
+correlation analysis, and dimensionality reduction.
+
+### 2. Model Development and Validation
+[View Model Validation Notebook](notebooks/Diabetes_ModelValidation.ipynb)
+
+This notebook compares Logistic Regression and
+LightGBM using different feature sets and class
+imbalance strategies, with patient-grouped
+cross-validation and held-out test evaluation.
 
 ## Reproducibility
 
